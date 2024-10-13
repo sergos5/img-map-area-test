@@ -1,0 +1,14 @@
+.typing-demo {
+  margin-top: 50px;
+  width: 36ch;
+  animation: typing 2.5s steps(36), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2rem;
+}
+  @keyframes typing {
+    from {width: 0;}}
+  @keyframes blink {
+    50% {border-color: transparent;}}
